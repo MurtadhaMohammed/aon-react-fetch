@@ -26,7 +26,7 @@ const App = () => {
     <div>
       <h1>Hi from App.jsx</h1>
       <ul>
-        {/* {loading && <p>Loading...</p>} */}
+        {loading && <p>Loading...</p>}
         {/* {loading ? <p>Loading...</p> : ""} */}
         {arr.map((el) => (
           <li>{el.name}</li>
